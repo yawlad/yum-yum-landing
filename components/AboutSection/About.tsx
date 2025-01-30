@@ -1,9 +1,7 @@
 "use client";
 import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import PhoneButton from "./PhoneButton";
 
 const About = () => {
