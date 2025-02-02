@@ -34,6 +34,7 @@ export default {
       lg: "24px",
       md: "16px",
       sm: "14px",
+      xs: "12px",
     },
     screens: {
       "2xl": { max: "1280px" },

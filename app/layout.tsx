@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
-const myFont = localFont({
+
+const arista = localFont({
   src: [
     {
       path: "../public/fonts/Arista-Pro-Light-trial.ttf",
@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${myFont.className} antialiased bg-darkgray min-h-screen`}
+        className={`${arista.className} antialiased bg-darkgray min-h-screen`}
       >
         <div className="w-full h-full bg-smiles bg-repeat bg-sm">
           {children}

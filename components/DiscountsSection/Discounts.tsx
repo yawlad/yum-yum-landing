@@ -57,7 +57,6 @@ const Discounts = () => {
             >
               <h5 className=" ">{item.name}</h5>
               <img className="w-[80%]" src={item.image} />
-              <div>Цена: {item.price}р</div>
             </div>
           ))}
         </div>
