@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import Number from "../Number";
-import PhoneButton from "../AboutSection/PhoneButton";
 
 const Footer = () => {
   return (
